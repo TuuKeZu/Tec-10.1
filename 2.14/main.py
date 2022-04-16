@@ -2,8 +2,8 @@ import time
 
 
 def solve():
-    x = 0
-    while not (x % 12 == 0 and x % 34 == 0 and x % 56):
+    x = 1
+    while not (x % 12 == 0 and x % 34 == 0 and x % 56 == 0):
         x += 1
     print(f"{x}")
 
